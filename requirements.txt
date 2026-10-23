@@ -1,0 +1,27 @@
+# Core Web Interface & App
+streamlit>=1.35.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Document & PDF Extraction
+pypdf>=4.0.0
+
+# Agentic Orchestration & LangGraph
+langgraph>=0.2.0
+langchain-core>=0.3.0
+
+# Google Gemini API
+google-genai>=1.0.0
+
+# Transformer Models & Evaluation (Optional for local inference/evaluation)
+# Note: For training, use Google Colab with GPU as specified in notebooks/
+torch>=2.0.0
+transformers>=4.40.0
+datasets>=2.19.0
+evaluate>=0.4.1
+rouge-score>=0.1.2
+nltk>=3.8.1
+
+# Automated Testing
+pytest>=8.0.0
+pytest-mock>=3.12.0

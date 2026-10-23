@@ -1,0 +1,15 @@
+{
+  "evaluation_timestamp_utc": "2026-10-09T11:53:14Z",
+  "model_path": "models/checkpoints/civilsum_bart",
+  "test_file": "data/test.csv",
+  "samples_evaluated": 50,
+  "metrics": {
+    "rouge": {
+      "rouge1": 37.39,
+      "rouge2": 14.31,
+      "rougeL": 24.62,
+      "method": "official_rouge_scorer"
+    },
+    "bertscore": {}
+  }
+}

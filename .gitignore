@@ -1,0 +1,36 @@
+# Environment & Credentials
+.env
+.env.local
+*.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Model Checkpoints & Large Data Files (Keep structure, ignore bulky weights)
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+data/
+*.csv
+*.pt
+*.bin
+*.safetensors
+*.onnx
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# OS Files
+.DS_Store
+Thumbs.db
